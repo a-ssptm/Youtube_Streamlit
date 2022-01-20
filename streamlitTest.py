@@ -53,7 +53,7 @@ st.table(df)
 st.map(df)
 
 #画像を表示させる
-img = Image.open('D:\移行フォルダ\python\YURI.png')#''内に格納場所、プログラムと同じ階層ならファイル名のみでおけ
+img = Image.open('YURI.png')#''内に格納場所、プログラムと同じ階層ならファイル名のみでおけ
 st.image(img, caption = 'YURI', use_column_width = True)#use_column_width実際のレイアウトの横幅に合わせて表示
 
 #####インタラクティブなウィジェットを表示させる####
